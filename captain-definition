@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 2,
+  "dockerfilePath": "./Dockerfile",
+  "imageName": "",
+  "containerHttpPort": 3000,
+  "caproverOneClickApp": false
+}
