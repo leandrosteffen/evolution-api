@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "dockerfileLines": [
+    "FROM node:18-bullseye",
+    "WORKDIR /usr/src/app",
+    "COPY package*.json ./",
+    "RUN npm ci --silent --legacy-peer-deps",
+    "COPY . .",
+    "EXPOSE 3000",
+    "CMD [\"npm\", \"start\"]"
+  ],
+  "containerHttpPort": 3000,
+  "caproverOneClickApp": false
+}
