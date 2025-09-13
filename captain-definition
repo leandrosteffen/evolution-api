@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "dockerfileLines": [
-    "FROM node:18-bullseye",
+    "FROM node:20-bullseye",
     "WORKDIR /usr/src/app",
     "# Instalar ferramentas de build necessárias",
     "RUN apt-get update && \\",
